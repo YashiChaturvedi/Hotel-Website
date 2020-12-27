@@ -1,0 +1,257 @@
+
+<!DOCTYPE HTML>
+<html>
+	<head>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<script src="https://kit.fontawesome.com/yourcode.js"></script>
+	<!--<link rel="stylesheet" type="text/css" href="style.css">-->
+	
+	
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Oleo+Script:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Oleo+Script:wght@700&family=Oswald&display=swap" rel="stylesheet">
+
+		<title>Hotel Maharaja | Home</title>
+		<link href="css/style.css" rel="stylesheet" type="text/css"  media="all" />
+		<link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="css/responsiveslides.css">
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+		<script src="js/responsiveslides.min.js"></script>
+		  <script>
+		   $(function () {
+			      $("#slider1").responsiveSlides({
+			        maxwidth: 1600,
+			        speed: 600
+			      });
+			});
+		  </script>
+	</head>
+	<body>
+		<!---start-Wrap--->
+			<!---start-header--->
+			<div class="header">
+				<div class="wrap">
+					<div class="header-top">
+						<div class="logo">
+							<a href="index.html"><img src="images/logo2.png" title="logo" /></a>
+						</div>
+                        <img src="images/maharajalogo.png" align="center" width=700px height=150 px>
+						<div class="contact-info">
+							<p class="phone">Call us : <a href="#">98828223xx</a></p>
+							<hr>
+							<p class="gpa">Gps : <a href="#top123">View map</a></p>
+						</div>
+						<div class="clear"> </div>
+					</div>
+				</div>
+
+				<header>
+					<!-- NAVIGATION BAR -->
+					<nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-inverse">
+					   <?=$_SESSION['sess_user'];?>
+					   <a class="navbar-brand" href="#" style="font-family: 'Oleo Script', cursive;">Welcome to our Website..!!</a>
+					  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					  </button>
+					  <div class="collapse navbar-collapse" id="navbarNav">
+						<ul class="navbar-nav">
+						  <li class="nav-item active">
+							<a class="nav-link" href="#index.html" style="font-family: 'Oswald', sans-serif;">HOME</a>
+						  </li>
+						 
+						  <li class="nav-item">
+							<a class="nav-link" href="about.html" style="font-family: 'Oswald', sans-serif;">ABOUT</a>
+						  </li>
+						  <li class="nav-item">
+							<a class="nav-link" href="services.html" style="font-family: 'Oswald', sans-serif;">SERVICES</a>
+						  </li>
+						  <li class="nav-item">
+							<a class="nav-link" href="gallery.html" style="font-family: 'Oswald', sans-serif;">GALLERY</a>
+						  </li>
+						  
+						  <li class="nav-item">
+							<a class="nav-link" href="contact.php" style="font-family: 'Oswald', sans-serif;">CONTACT</a>
+						  </li>
+						</ul>
+					  </div>
+					</nav>
+					</header>
+
+				<!-- <div class="header-top-nav">
+					<div class="wrap">
+						<ul>
+							<li class="active"><a href="index.html">Home</a></li>
+							<li><a href="about.html">About</a></li>
+							<li><a href="services.html">Services</a></li>
+							<li><a href="gallery.html">Gallery</a></li>
+							<li><a href="contact.html">Contact</a></li>
+							<div class="clear"> </div>
+						</ul>
+					</div>
+				</div> -->
+			</div>
+			<!---End-header--->
+			<div class="clear"> </div>
+			<!--start-image-slider---->
+					<div class="image-slider">
+						<!-- Slideshow 1 -->
+						    <ul class="rslides" id="slider1">
+						      <li><img src="images/slider3.jpg" alt=""></li>
+						      <li><img src="images/slider1.jpg" alt=""></li>
+						      <li><img src="images/slider3.jpg" alt=""></li>
+						    </ul>
+						 <!-- Slideshow 2 -->
+					</div>
+					<!--End-image-slider---->
+			<!---start-content----->
+			<div class="content">
+				<div class="quit">
+					<p><span class="start">feel the royal</span> touch, stay like <span class="end">maharaja </span></p>
+				</div>
+					<div class="content-grids">
+						<div class="wrap">
+						<div class="content-grid">
+							<div class="content-grid-pic">
+								<a href="#"><img src="images/icon1.png" title="image-name" /></a>
+							</div>
+							<div class="content-grid-info">
+								<h3>Best food Ever</h3>
+								<p>"Rotting melons, dried-up mustard,<br>
+Eggshells mixed with lemon custard,<br>
+Cold French fries and rancid meat,<br>
+Yellow lumps of Cream of Wheat. . ."</p>
+								<a href="https:swiggy.com">Read More</a>
+							</div>
+							<div class="clear"> </div>
+						</div>
+						<div class="content-grid">
+							<div class="content-grid-pic">
+								<a href="#"><img src="images/icon2.png" title="image-name" /></a>
+							</div>
+							<div class="content-grid-info">
+								<h3>24x7 phone support</h3>
+								<p>"customer is King<br> At your Serive."</p>
+								<a href="contact.html">Read More</a>
+							</div>
+							<div class="clear"> </div>
+						</div>
+						<div class="content-grid">
+							<div class="content-grid-pic">
+								<a href="#"><img src="images/iocn3.png" title="image-name" /></a>
+							</div>
+							<div class="content-grid-info">
+								<h3>Best Room Services</h3>
+								<p>"live life king size with<br>
+                                    all the services at your room"</p>
+								<a href="services.html">Read More</a>
+							</div>
+							<div class="clear"> </div>
+						</div>
+						
+						<div class="clear"> </div>
+					</div>
+				</div>
+				<div class="clear"> </div>
+				<div class="content-box">
+					<div class="wrap">
+					<div class="content-box-left">
+						<div class="content-box-left-topgrid">
+							<h3>welcome to our Hotel</h3>
+							<p><ul> Feel Like Home :) </ul> </p>
+							<p> Whether you are staying with us, visiting our marine & water park attractions for the day or dining in one of our award-winning restaurants, Atlantis promises to deliver extraordinary experiences. We are very excited to bring to you a wide range of new and exciting entertainment options that you must try during your visit.</p>
+							<span>For more information about our Hotel, Call 98828223xx</span>
+						</div>
+						<div class="content-box-left-bootomgrids">
+							<div class="content-box-left-bootomgrid">
+								<h3><ul>Deluxe Rooms</ul></h3>
+								<p>Guest room, 1 King or 2 Twin/Single Bed(s)</p>
+								<a href="#"><img src="images/slider1.jpg" title="image-name" /></a>
+							</div>
+							<div class="content-box-left-bootomgrid">
+								<h3><ul>Luxury Rooms</ul></h3>
+								<p>Guest room, 1 King or 2 Twin/Single Bed(s), Pool access, Balcony</p>
+								<a href="#"><img src="images/slider2.jpg" title="image-name" /></a>
+							</div>
+							<div class="content-box-left-bootomgrid lastgrid">
+								<h3><ul>Executive Rooms</ul></h3>
+								<p>Club lounge access, Guest room, 1 King or 2 Double</p>
+								<a href="#"><img src="images/slider3.jpg" title="image-name" /></a>
+							</div>
+							<div class="clear"> </div>
+						</div>
+						<div class="clear"> </div>
+					</div>
+					<div class="content-box-right" style="background-color: rgb(141, 231, 231); border-radius: 10px;">
+						<div class="content-box-right-topgrid">
+							
+							<marquee><h3 style="background-color: greenyellow;">Today's Specials</h3></marquee>
+							<a href="#"><img src="images/slider1.jpg" title="imnage-name" /></a>
+							<h4 style="color: blue;">Super Discount Offer</h4>
+							<p>"For those seeking additional luxury and comfort<br>
+<u>Size:</u> 45 - 47 square metres<br>
+<u>Views:</u>  The Palm or Aquaventure<br>
+<u>Occupancy:</u> 2 adults + 2 children<br>
+<u>Bed type:</u>  a king size bed or queen size beds"</p>
+							<a href="gallery.html" style="color: blue;">Read More</a>
+						</div>
+						<div class="content-box-right-bottomgrid">
+							
+						</div>
+					</div>
+					<div class="clear"> </div>
+				</div>
+				<div class="clear"> </div>
+				<div class="boxs">
+				<div class="wrap">
+				<div class="box">
+			
+				</div>
+				<div class="box center-box">
+					<ul>
+						<li><a href="contact.php">Leave a Feedback</a></li>
+						<li><a href="gallery.html">Gallery</a></li>
+						<li><a href="services.html">Services</a></li>
+						<li><a href="about.html">Know About Us</a></li>
+						<li><a href="https:www.quora.com/What-is-trekking">Know about Moutaineering and trekking here</a></li>
+					</ul>
+				</div>
+                     <div id="top123"> 
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7535.3290894386555!2d72.86521972472372!3d19.209848698044947!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b0e57647569d%3A0xc0aec329c82d3555!2sThakur%20College%20of%20Engineering%20and%20Technology!5e0!3m2!1sen!2sin!4v1596821982114!5m2!1sen!2sin" width="350" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    </div>
+		
+				<div class="clear"> </div>
+			</div>
+			<!---start-box---->
+		</div>
+		<!---start-copy-Right----->
+		<div class="copy-tight">
+			<p>&copy HOTEL MAHARAJA, MUMBAI 2020</p>
+		</div>
+		<!---End-copy-Right----->
+			</div>
+			<!---End-content----->
+		</div>
+		<!---End-Wrap--->
+    <script>
+function myFunction() {
+    var person = prompt("Please enter your valuable feedback", "......");
+    if (person != null) {
+        alert("Thank you for your response! Have a nice day");
+	}} 
+        function myFunction1() {
+    var person = prompt("Please give your review", "......");
+    if (person != null) {
+        alert("Thank you for reviewing us!!!");
+
+    }
+}
+</script>
+	</body>
+</html>
